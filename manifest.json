@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "schema_owner": "project convention; not platform installation metadata",
-  "release_version": "0.1.2",
-  "release_tag": "v0.1.2",
+  "release_version": "0.1.3",
+  "release_tag": "v0.1.3",
   "publisher": {
     "login": "afrog33k",
     "account_id": 712518
   },
   "source_repository": "afrog33k/cornerpost-skills",
-  "source_commit": "6ed989a7b815a94fbcba4bfa807225c1c85174fd",
+  "source_commit": "f4f9510d3ce22db8d057225e9be92aa7d16f2537",
   "packages": [
     {
       "id": "afrog33k/guided-dot-onboarding",
       "name": "guided-dot-onboarding",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "entrypoint": "skills/guided-dot-onboarding/SKILL.md",
       "files": [
         "skills/guided-dot-onboarding/SKILL.md",
@@ -24,7 +24,7 @@
     {
       "id": "afrog33k/skill-release-updates",
       "name": "skill-release-updates",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "entrypoint": "skills/skill-release-updates/SKILL.md",
       "files": [
         "skills/skill-release-updates/SKILL.md",
@@ -36,8 +36,8 @@
   "payload_files": [
     {
       "path": "CHANGELOG.md",
-      "bytes": 2001,
-      "sha256": "fc198e268a8da8431d04235b5a1452bec1793e974de53494892b19eb555c4ce3"
+      "bytes": 2281,
+      "sha256": "21a5ba1b79894587edabc7f74b99abd894024f866354d4182030a8d8485439c6"
     },
     {
       "path": "README.md",
@@ -66,18 +66,18 @@
     },
     {
       "path": "skills/skill-release-updates/SKILL.md",
-      "bytes": 2932,
-      "sha256": "8c295a995214c5ad9cc4ca09daf900817b1880254ed66b92840ec438e3d8a05f"
+      "bytes": 3333,
+      "sha256": "2797159e79149727c37c9d30cc393f41c3a0e3ee13703d4f4c838fccdcf93576"
     },
     {
       "path": "skills/skill-release-updates/assets/installed-receipt.template.json",
-      "bytes": 1022,
-      "sha256": "98237b7c4c9fa0a618b262d2c3d01bd28737a4928314351cade2806e11dc6eb6"
+      "bytes": 1316,
+      "sha256": "02f3f74507ac945ae667d51df08d42e03684ad18326e160411ba94b2112029fd"
     },
     {
       "path": "skills/skill-release-updates/references/UPDATE-GUIDE.md",
-      "bytes": 7337,
-      "sha256": "a76a2c1ff8593303e404f9c9dcdde1000d38e8982bc739412ae526cb794bfc74"
+      "bytes": 7722,
+      "sha256": "a02350d368fc5965a1d88be327637a62eefc8d63dd6eca0f725e6a9a5d20b2ac"
     }
   ],
   "requirements": {
