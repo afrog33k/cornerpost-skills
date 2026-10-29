@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 — 29 October 2026
+
+- Count existing scoped save/install and service-connection authorization while preserving owner login/consent controls.
+- Incorporate reviewed first-run checks from the staged 0.1.1 candidate. A fresh cold-start evaluation completed fictional agency record work/readback and safely blocked a missing-screenshot case; this is not a recipient runtime test.
+
+
 ## 0.1.1 — 29 October 2026
 
 - Add self-contained Twenty/invited-company-account context and actual tool discovery/execution checks.

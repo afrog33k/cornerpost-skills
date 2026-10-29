@@ -53,7 +53,7 @@ After handoff, inspect the actual connection result or run a minimal harmless re
 
 ### 4. Save this workflow only if supported
 
-Inspect the current account's supported skill creation/import/installation options. Explain the available destination and scope, and ask whether the user wants this workflow saved for reuse. Use that supported flow only after consent. If there is no supported route or permission, continue using these instructions in this conversation and say it is not installed.
+Inspect the current account's supported skill creation/import/installation options. Explain the available destination and scope. If the owner has already requested saving or installing this workflow in that scope, proceed within that authorization; otherwise ask whether they want it saved. Complete any required platform confirmation and owner consent step. If there is no supported route or permission, continue using these instructions in this conversation and say it is not installed.
 
 Do not assume a gist URL imports a skill, a folder is a plugin, local installation transfers to another account, or sharing instructions transfers connector access. Do not manufacture an installer or execute a remote command. Keep this step optional; it must not block the first useful CRM task.
 
@@ -91,7 +91,7 @@ Use the narrowest supported write, then read back the affected record. Report ve
 
 ### 9. Offer optional email, calendar, and check-ins
 
-Only propose additions tied to the user's deal workflow. Ask separately before connecting each optional service. Resolve the correct sender, recipients, destination, timezone, and event details. Draft first; obtain the authorization required for sending or inviting, then verify the resulting message or event. A CRM update approval does not authorize email or calendar changes.
+Only propose additions tied to the user's deal workflow. Check authorization for each optional service separately. Existing service-specific authorization counts; otherwise ask before connecting. The owner still completes any required private login and consent controls. Resolve the correct sender, recipients, destination, timezone, and event details. Draft first; obtain the authorization required for sending or inviting, then verify the resulting message or event. A CRM update approval does not authorize email or calendar changes.
 
 For recurring check-ins, agree on the purpose, schedule, timezone, channel, and permitted actions. Create a schedule only when supported and explicitly approved; verify its saved state. Otherwise explain that no recurring check-in has been created. Do not create recurring monitoring merely to finish an action already in progress.
 
