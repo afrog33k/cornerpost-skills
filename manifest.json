@@ -1,29 +1,30 @@
 {
   "schema_version": 1,
   "schema_owner": "project convention; not platform installation metadata",
-  "release_version": "0.1.0",
-  "release_tag": "v0.1.0",
+  "release_version": "0.1.1",
+  "release_tag": "v0.1.1",
   "publisher": {
     "login": "afrog33k",
     "account_id": 712518
   },
   "source_repository": "afrog33k/cornerpost-skills",
-  "source_commit": "3ebce370cdc7e564c34adb71370bdfa4557743ef",
+  "source_commit": "df3e37fc228ea9bf345da3fa471189145d4ef929",
   "packages": [
     {
       "id": "afrog33k/guided-dot-onboarding",
       "name": "guided-dot-onboarding",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "entrypoint": "skills/guided-dot-onboarding/SKILL.md",
       "files": [
         "skills/guided-dot-onboarding/SKILL.md",
+        "skills/guided-dot-onboarding/references/ONBOARDING-CHECKS.md",
         "skills/guided-dot-onboarding/references/TWENTY-OPERATIONS.md"
       ]
     },
     {
       "id": "afrog33k/skill-release-updates",
       "name": "skill-release-updates",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "entrypoint": "skills/skill-release-updates/SKILL.md",
       "files": [
         "skills/skill-release-updates/SKILL.md",
@@ -35,23 +36,28 @@
   "payload_files": [
     {
       "path": "CHANGELOG.md",
-      "bytes": 870,
-      "sha256": "f18ef8d2de8b33505dd79b2fd183b81c4688791b3727033e2304cdf2f41d971f"
+      "bytes": 1613,
+      "sha256": "14b92a7dc1e4fffa98d89606fd26f7bc960c1ef2e3699c6c44fae7dea6104341"
     },
     {
       "path": "README.md",
-      "bytes": 3418,
-      "sha256": "e72b1e5b5d9a735e961e1ec4a7ea5b771fcb0f4b10d54c5107c197ad8ecbe85e"
+      "bytes": 3883,
+      "sha256": "910b7fb3a6b615345d57dd15b6928a5a8dde6b3a6428bcd1d56c686b84052862"
     },
     {
       "path": "SOURCE-PROVENANCE.json",
-      "bytes": 1538,
-      "sha256": "2b0d1f98d9db0853a5a55b5cce8d7cc41e5ea751874284007c1f0ce8a9340b03"
+      "bytes": 1661,
+      "sha256": "5b1963dffcb4de2def4721a4a084096f415f884aca266da847da63a3e39e8b35"
     },
     {
       "path": "skills/guided-dot-onboarding/SKILL.md",
-      "bytes": 11084,
-      "sha256": "a1dfe7713db81c2cfe4b42a246dcfa6859457d8789128264b6ac7414daca6bb1"
+      "bytes": 12138,
+      "sha256": "07d7526a9f25a0efa17c5986bee70d18f4463b0399ccc75a61e27282c5de5716"
+    },
+    {
+      "path": "skills/guided-dot-onboarding/references/ONBOARDING-CHECKS.md",
+      "bytes": 9233,
+      "sha256": "cf7f17f21a5f0d54dbd98665e891b7aebfeab2af202c3137f4a00dde6d338e3b"
     },
     {
       "path": "skills/guided-dot-onboarding/references/TWENTY-OPERATIONS.md",
