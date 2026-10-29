@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "schema_owner": "project convention; not platform installation metadata",
-  "release_version": "0.1.1",
-  "release_tag": "v0.1.1",
+  "release_version": "0.1.2",
+  "release_tag": "v0.1.2",
   "publisher": {
     "login": "afrog33k",
     "account_id": 712518
   },
   "source_repository": "afrog33k/cornerpost-skills",
-  "source_commit": "df3e37fc228ea9bf345da3fa471189145d4ef929",
+  "source_commit": "6ed989a7b815a94fbcba4bfa807225c1c85174fd",
   "packages": [
     {
       "id": "afrog33k/guided-dot-onboarding",
       "name": "guided-dot-onboarding",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "entrypoint": "skills/guided-dot-onboarding/SKILL.md",
       "files": [
         "skills/guided-dot-onboarding/SKILL.md",
@@ -24,7 +24,7 @@
     {
       "id": "afrog33k/skill-release-updates",
       "name": "skill-release-updates",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "entrypoint": "skills/skill-release-updates/SKILL.md",
       "files": [
         "skills/skill-release-updates/SKILL.md",
@@ -36,8 +36,8 @@
   "payload_files": [
     {
       "path": "CHANGELOG.md",
-      "bytes": 1613,
-      "sha256": "14b92a7dc1e4fffa98d89606fd26f7bc960c1ef2e3699c6c44fae7dea6104341"
+      "bytes": 2001,
+      "sha256": "fc198e268a8da8431d04235b5a1452bec1793e974de53494892b19eb555c4ce3"
     },
     {
       "path": "README.md",
@@ -51,8 +51,8 @@
     },
     {
       "path": "skills/guided-dot-onboarding/SKILL.md",
-      "bytes": 12138,
-      "sha256": "07d7526a9f25a0efa17c5986bee70d18f4463b0399ccc75a61e27282c5de5716"
+      "bytes": 12420,
+      "sha256": "eed886d1529cfcf4e89a5acd17397b5e7b0773009d5eda0c8c09a824b8bf8f1a"
     },
     {
       "path": "skills/guided-dot-onboarding/references/ONBOARDING-CHECKS.md",
@@ -95,7 +95,8 @@
   },
   "verification_limits": {
     "recipient_installation_tested": false,
-    "scheduled_activation_tested": false
+    "scheduled_activation_tested": false,
+    "hermetic_cold_start_evaluation": "Fictional agency writes/readback and missing-screenshot handling passed; not a recipient runtime test."
   },
   "rollback": "Retain this verified baseline and later previous packages/receipts privately; use the supported restore route without overwriting local customization."
 }
