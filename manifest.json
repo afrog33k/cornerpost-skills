@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "schema_owner": "project convention; not platform installation metadata",
+  "release_version": "0.1.0",
+  "release_tag": "v0.1.0",
+  "publisher": {
+    "login": "afrog33k",
+    "account_id": 712518
+  },
+  "source_repository": "afrog33k/cornerpost-skills",
+  "source_commit": "3ebce370cdc7e564c34adb71370bdfa4557743ef",
+  "packages": [
+    {
+      "id": "afrog33k/guided-dot-onboarding",
+      "name": "guided-dot-onboarding",
+      "version": "0.1.0",
+      "entrypoint": "skills/guided-dot-onboarding/SKILL.md",
+      "files": [
+        "skills/guided-dot-onboarding/SKILL.md",
+        "skills/guided-dot-onboarding/references/TWENTY-OPERATIONS.md"
+      ]
+    },
+    {
+      "id": "afrog33k/skill-release-updates",
+      "name": "skill-release-updates",
+      "version": "0.1.0",
+      "entrypoint": "skills/skill-release-updates/SKILL.md",
+      "files": [
+        "skills/skill-release-updates/SKILL.md",
+        "skills/skill-release-updates/assets/installed-receipt.template.json",
+        "skills/skill-release-updates/references/UPDATE-GUIDE.md"
+      ]
+    }
+  ],
+  "payload_files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 870,
+      "sha256": "f18ef8d2de8b33505dd79b2fd183b81c4688791b3727033e2304cdf2f41d971f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3418,
+      "sha256": "e72b1e5b5d9a735e961e1ec4a7ea5b771fcb0f4b10d54c5107c197ad8ecbe85e"
+    },
+    {
+      "path": "SOURCE-PROVENANCE.json",
+      "bytes": 1538,
+      "sha256": "2b0d1f98d9db0853a5a55b5cce8d7cc41e5ea751874284007c1f0ce8a9340b03"
+    },
+    {
+      "path": "skills/guided-dot-onboarding/SKILL.md",
+      "bytes": 11084,
+      "sha256": "a1dfe7713db81c2cfe4b42a246dcfa6859457d8789128264b6ac7414daca6bb1"
+    },
+    {
+      "path": "skills/guided-dot-onboarding/references/TWENTY-OPERATIONS.md",
+      "bytes": 14538,
+      "sha256": "cdec92c95163a168d1212d1e79d123ca6af47226aa5392fabca12c22c3a5ba3d"
+    },
+    {
+      "path": "skills/skill-release-updates/SKILL.md",
+      "bytes": 2932,
+      "sha256": "8c295a995214c5ad9cc4ca09daf900817b1880254ed66b92840ec438e3d8a05f"
+    },
+    {
+      "path": "skills/skill-release-updates/assets/installed-receipt.template.json",
+      "bytes": 1022,
+      "sha256": "98237b7c4c9fa0a618b262d2c3d01bd28737a4928314351cade2806e11dc6eb6"
+    },
+    {
+      "path": "skills/skill-release-updates/references/UPDATE-GUIDE.md",
+      "bytes": 7337,
+      "sha256": "a76a2c1ff8593303e404f9c9dcdde1000d38e8982bc739412ae526cb794bfc74"
+    }
+  ],
+  "requirements": {
+    "format": "Agent Skill folder with SKILL.md and supporting references/assets",
+    "minimum_client_version": null,
+    "saved_installation": "Requires a supported import/save/filesystem skill route in the receiving surface; inspect it before use.",
+    "runtime_integrations": "Discover and authorize separately in each recipient account.",
+    "update_check": [
+      "public HTTPS source read",
+      "authorized private installed receipt storage"
+    ],
+    "scheduled_check": "Requires an owner-enrolled native schedule in an environment that can perform the check.",
+    "activation": "Requires an available supported update route and the owner policy/platform controls; no executable updater is included.",
+    "permissions_granted": []
+  },
+  "verification_limits": {
+    "recipient_installation_tested": false,
+    "scheduled_activation_tested": false
+  },
+  "rollback": "Retain this verified baseline and later previous packages/receipts privately; use the supported restore route without overwriting local customization."
+}
