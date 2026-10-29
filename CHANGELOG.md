@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 — 29 October 2026
+
+- Explicitly require owner approval for deletion, including cleanup and old skill files.
+- Record observed runtime version/time separately from persisted installation verification, allowing unknown runtime state and avoiding inferred chat refresh.
+
+
 ## 0.1.2 — 29 October 2026
 
 - Count existing scoped save/install and service-connection authorization while preserving owner login/consent controls.

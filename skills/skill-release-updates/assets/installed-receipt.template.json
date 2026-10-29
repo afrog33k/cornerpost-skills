@@ -38,5 +38,11 @@
     "download_to_staging": false,
     "activation_policy": null,
     "authorization_reference": null
+  },
+  "runtime_observation": {
+    "runtime_observed_version": null,
+    "runtime_verified_at": null,
+    "verification_method": null,
+    "verification_limit": "Unknown is allowed. Persisted installation or its verification time does not establish which version the running chat has loaded."
   }
 }

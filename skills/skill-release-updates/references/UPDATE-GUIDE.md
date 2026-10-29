@@ -46,4 +46,8 @@ Review permission, connector, platform and executable changes against the owner'
 
 Record states separately: checked, downloaded/staged, activated and blocked/failed. Pin manifest commit/hash, source commit, version, file hashes, installation handle and verification method. If the platform hides installed file bytes, record the available verification and its limit. Never fabricate exact hashes or advance the active version after an ambiguous result.
 
+Record `runtime_observed_version` and `runtime_verified_at` separately from persisted installation verification. Leave runtime values unknown unless the running chat or platform exposes evidence; saving or verifying an installation does not prove an already-running chat refreshed.
+
+Do not delete data, files or old skill versions, including cleanup, without explicit owner approval.
+
 Before activation retain the previous verified package bytes and receipt in authorized private storage; a URL alone is insufficient. Rollback restores that selected workflow through the supported platform route while preserving local customization. It does not undo CRM writes, messages or calendar events. Keep released source commits, checksum files and release assets available; do not retag or replace a version's bytes.
