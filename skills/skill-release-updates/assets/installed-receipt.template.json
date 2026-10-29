@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "not_installed_template",
+  "skill_id": null,
+  "trusted_source": {
+    "publisher_login": "afrog33k",
+    "publisher_account_id": 712518,
+    "repository": "afrog33k/cornerpost-skills",
+    "repository_id": null
+  },
+  "installation": {
+    "surface": null,
+    "handle": null,
+    "verified_at": null,
+    "verification_method": null,
+    "verification_limit": null
+  },
+  "active_release": null,
+  "previous_verified_release": null,
+  "release_record_fields": [
+    "version",
+    "source_commit",
+    "manifest_commit",
+    "manifest_url",
+    "manifest_sha256",
+    "verified_package_archive_reference",
+    "activated_at"
+  ],
+  "upstream_file_receipts": [],
+  "local_customizations": [],
+  "last_check": null,
+  "staged_candidate": null,
+  "update_policy": {
+    "owner_enrolled": false,
+    "cadence": null,
+    "timezone": null,
+    "native_scheduler_reference": null,
+    "download_to_staging": false,
+    "activation_policy": null,
+    "authorization_reference": null
+  }
+}

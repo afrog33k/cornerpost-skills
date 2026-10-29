@@ -1,0 +1,27 @@
+{
+  "source_url": "https://gist.github.com/afrog33k/5f312bedd13774c18220b746e510fc2b",
+  "source_revision": "1844493de658ab0530f4b98b5c8cfee849869f30",
+  "files": {
+    "PASTE-PROMPT.txt": {
+      "bytes": 1285,
+      "sha256": "f877965aae5caab3acf2c09885a076994f51fdb24a9e35ca675b16af6f5b999b",
+      "url": "https://gist.githubusercontent.com/afrog33k/5f312bedd13774c18220b746e510fc2b/raw/1844493de658ab0530f4b98b5c8cfee849869f30/PASTE-PROMPT.txt"
+    },
+    "README.md": {
+      "bytes": 3219,
+      "sha256": "7d67e4c9610849c4c482b3797c70e8838b05e4647c229387c3dd2d0e2616ec1b",
+      "url": "https://gist.githubusercontent.com/afrog33k/5f312bedd13774c18220b746e510fc2b/raw/1844493de658ab0530f4b98b5c8cfee849869f30/README.md"
+    },
+    "SKILL.md": {
+      "bytes": 10363,
+      "sha256": "b97d9466ff9c105125c88418f9bb6d746c10f862eee87306026e262f06aeb854",
+      "url": "https://gist.githubusercontent.com/afrog33k/5f312bedd13774c18220b746e510fc2b/raw/1844493de658ab0530f4b98b5c8cfee849869f30/SKILL.md"
+    },
+    "TWENTY-OPERATIONS.md": {
+      "bytes": 14544,
+      "sha256": "3a2ed3672fb4e979f76a9e84ab2241fd12ed7ebfd59ffe4eb28e675e7e44520a",
+      "url": "https://gist.githubusercontent.com/afrog33k/5f312bedd13774c18220b746e510fc2b/raw/1844493de658ab0530f4b98b5c8cfee849869f30/TWENTY-OPERATIONS.md"
+    }
+  },
+  "adaptation": "Guided SKILL.md adds local reference/update routing. Twenty guide has one grammar correction. Repository documentation and release-updates skill are new generic material. The source Gist is unchanged."
+}
