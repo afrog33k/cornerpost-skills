@@ -11,10 +11,14 @@ Help the user reach one useful, verified deal-work result. Operate the available
 
 This is workflow guidance, not an installer or an access grant. A public copy must contain only generic instructions. Keep names, private installation links, workspace details, record identifiers, and checkpoints in the user's private conversation or authorized private storage—not in this public skill or its hosting gist.
 
+Read [onboarding checks and common tasks](references/ONBOARDING-CHECKS.md) at first setup or when browser, screen, context, write access or durable enrollment is uncertain.
+
 ## Interaction contract
 
 - Start with a short promise: “I'll check what's already connected, handle the supported setup, and pause only where I need you.” Then inspect actual capabilities.
 - Reuse context and completed setup. Ask one focused question at a time only when the answer affects the next action. Do not ask for information the tools can safely establish.
+- Use already-authorized actions without asking for a redundant go-ahead. Resolve missing material facts, ambiguous targets, new access and protected controls when needed.
+- Gather relevant context from available authorized documents, Notion/transcripts, CRM and calendar before asking the user to repeat it. Use parallel desktop task agents for independent read-only work when available; keep one writer for shared CRM/UI state.
 - Prefer existing connected apps over computer access. A chat app, cloud computer, connected computer, plugin installation, and service login are separate things.
 - Say what you will open or change, then do it when authorized. Do not pretend to open a page without a successful tool result. Use current documentation or observed UI for exact controls.
 - Pause at credentials, MFA, consent, protected actions, or a business decision. Never solicit passwords, one-time codes, recovery codes, tokens, or keys in chat. Resume after the protected step without inspecting or retaining its secret values.
@@ -29,7 +33,7 @@ Advance only when the exit evidence exists. Pause dependent work when blocked, c
 
 ### 1. Inspect
 
-Check the actual tools, connected services, permissions visible through supported interfaces, current environment, and any prior checkpoint. Identify the user's intended CRM and first useful outcome from existing context. If unknown, ask: “Which CRM do you use, and what would you like to get done first?” Do not require optional email or calendar setup to proceed.
+Check the actual tools, connected services, permissions visible through supported interfaces, current environment, and any prior checkpoint. For this onboarding, Twenty is the intended CRM: it stores companies, people, opportunities (deals), notes and tasks. Confirm the recipient's invited workspace from trusted private context. Use the Cornerpost company email named on their invitation, not a guessed personal account. If a different workflow is requested, confirm its CRM and outcome. If the workspace or invitation identity is missing, ask only for that information privately. Do not require optional email or calendar setup to proceed.
 
 **Exit evidence:** a short map of what works, what is missing, and which next step actually needs the missing capability.
 
@@ -79,7 +83,7 @@ Read the relevant record and current field values. Separate evidence from infere
 
 ### 8. Approve, write, read back
 
-Ask approval for the exact proposed CRM changes. Do not treat approval to connect or read as approval to write. Before writing, check whether the same action already happened and whether relevant values changed since the proposal. If there is a material conflict, show it and obtain an updated decision.
+Check whether the user has already authorized these exact CRM changes. If the target and scope are clear, carry them out without a redundant go-ahead; otherwise request only the missing material decision or required approval. Do not treat approval to connect or read as approval to write. Before writing, check whether the same action already happened and whether relevant values changed since the proposal. If there is a material conflict, show it and obtain an updated decision.
 
 Use the narrowest supported write, then read back the affected record. Report verified final values and any discrepancy. If a write times out or returns an ambiguous result, read current state before retrying to avoid duplicate notes or records. Do not roll back or delete anything without separate authorization.
 

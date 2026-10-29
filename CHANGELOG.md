@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 — 29 October 2026
+
+- Add self-contained Twenty/invited-company-account context and actual tool discovery/execution checks.
+- Add multi-computer/browser/profile/display selection and current-screenshot evidence before visual action.
+- Gather relevant authorized document, Notion/transcript and calendar context; use parallel read-only task agents when available and act on already-authorized changes without redundant go-aheads.
+- Add agency/contact/deal/context task examples, recovery checks and concrete skill/update enrollment success criteria.
+- These are instruction and package checks; recipient runtime behavior, companion screenshot implementation, live writes and scheduled activation are not established by this release.
+
 ## 0.1.0 — 29 October 2026
 
 First versioned repository release.

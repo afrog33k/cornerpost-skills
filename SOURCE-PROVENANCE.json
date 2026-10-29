@@ -23,5 +23,5 @@
       "url": "https://gist.githubusercontent.com/afrog33k/5f312bedd13774c18220b746e510fc2b/raw/1844493de658ab0530f4b98b5c8cfee849869f30/TWENTY-OPERATIONS.md"
     }
   },
-  "adaptation": "Guided SKILL.md adds local reference/update routing. Twenty guide has one grammar correction. Repository documentation and release-updates skill are new generic material. The source Gist is unchanged."
+  "adaptation": "The guided workflow is packaged with local references and explicit identity, capability, context, UI-evidence, scoped-action and enrollment checks. The Twenty guide has one grammar correction. Repository documentation, first-run checks and the release-updates package are new generic material. The source Gist is unchanged."
 }

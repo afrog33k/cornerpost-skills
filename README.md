@@ -1,11 +1,13 @@
 # Cornerpost skills
 
-Generic, versioned assistant workflows for guided onboarding, Twenty CRM work and release checking. No customer data, personal setup, credentials or connector configuration is included.
+Generic, versioned assistant workflows for guided onboarding, Twenty CRM work and release checking. No customer data, personal setup, credentials or connector configuration is included. This package captures user-visible operating behavior; never copy private assistant instructions, memory, hidden reasoning or source prompts into it.
 
 | Skill | Stable package ID | Purpose |
 | --- | --- | --- |
 | [Guided onboarding](skills/guided-dot-onboarding/SKILL.md) | `afrog33k/guided-dot-onboarding` | Handle supported setup, pause for owner login/consent, verify connections and complete approved deal work. |
 | [Skill release updates](skills/skill-release-updates/SKILL.md) | `afrog33k/skill-release-updates` | Verify published versions, stage updates, preserve customization and guide supported activation/rollback. |
+
+The [first-run checks](skills/guided-dot-onboarding/references/ONBOARDING-CHECKS.md) explain the invited company identity, multiple browsers/displays, screenshot evidence, source gathering and durable enrollment. Twenty is the CRM for this workflow; the recipient uses the company email on their invitation.
 
 The [Twenty operator guide](skills/guided-dot-onboarding/references/TWENTY-OPERATIONS.md) covers common record operations and troubleshooting. Relearn schemas in the recipient's own connection.
 
@@ -19,7 +21,7 @@ The assistant should handle supported actions itself. You choose the account, co
 
 ## Versions and updates
 
-`manifest.json` declares the release version, stable IDs, exact source commit and payload hashes. Resolve the release's full commit and pin the manifest hash in a private installed receipt; `v0.1.0` is a convenient label, not an immutable reference by itself. Read the [update guide](skills/skill-release-updates/references/UPDATE-GUIDE.md), [changelog](CHANGELOG.md), and [blank receipt template](skills/skill-release-updates/assets/installed-receipt.template.json).
+`manifest.json` declares the release version, stable IDs, exact source commit and payload hashes. Resolve the release's full commit and pin the manifest hash in a private installed receipt; release tags are convenient labels, not immutable references by themselves. Read the [update guide](skills/skill-release-updates/references/UPDATE-GUIDE.md), [changelog](CHANGELOG.md), and [blank receipt template](skills/skill-release-updates/assets/installed-receipt.template.json).
 
 Each owner separately enrolls installation and any native scheduled check. Downloading instructions is not installation or runtime activation. This repository creates no schedule, installs nothing in other accounts and contains no custom daemon or executable installer. Actual update ability depends on the receiving platform and its permissions. Local changes are preserved, with the previous verified package retained for rollback.
 
